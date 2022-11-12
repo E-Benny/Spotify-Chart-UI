@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Chart UI</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&family=Nunito:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="first-row">
+          <div class="first-left">
+            <p>2:04</p>
+          </div>
+          <div class="first-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reception-4" viewBox="0 0 16 16">
+        <path d="M0 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-5zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-8zm4-3a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-11z"/>
+      </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wifi" viewBox="0 0 16 16">
+        <path d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.444 12.444 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.518.518 0 0 0 .668.05A11.448 11.448 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049z"/>
+        <path d="M13.229 8.271a.482.482 0 0 0-.063-.745A9.455 9.455 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091l.016-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z"/>
+      </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-full" viewBox="0 0 16 16">
+        <path d="M2 6h10v4H2V6z"/>
+        <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z"/>
+      </svg>
+          </div>
+        </div>
+        
+        <!--The second row -->
+        <div class="second-row">
+          <div class="second-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+      </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap" viewBox="0 0 16 16">
+        <path d="M4 2v2H2V2h2zm1 12v-2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm5 10v-2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zM9 2v2H7V2h2zm5 0v2h-2V2h2zM4 7v2H2V7h2zm5 0v2H7V7h2zm5 0h-2v2h2V7zM4 12v2H2v-2h2zm5 0v2H7v-2h2zm5 0v2h-2v-2h2zM12 1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zm-1 6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zm1 4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2z"/>
+      </svg>
+          </div>
+          <!--The Center -->
+          <div class="second-center">
+            Top <span><p>(The past four weeks)</p></span>
+          </div>
+          <!--The Second Right -->
+          <div class="second-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+        <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+        <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+        <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+        <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-arrow-up" viewBox="0 0 16 16">
+        <path d="M8 11a.5.5 0 0 0 .5-.5V6.707l1.146 1.147a.5.5 0 0 0 .708-.708l-2-2a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L7.5 6.707V10.5a.5.5 0 0 0 .5.5z"/>
+        <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
+      </svg>
+          </div>
+        </div>
+        
+        <!--Third Row -->
+        <div class="third-row">
+          <h2><span class="first-link"><a href="#">Songs</a></span></h2>
+          <h2><span class="first-link"><a href="#">Artists</a></span></h2>
+            <h2><span class="first-link"><a href="#">Albums</a></span></h2>
+        </div>
+        
+        <!--Image Grid -->
+        <div class="images">
+          <div class="image row-1">
+            <div class="artist image-1">
+              <div class="figcap">
+                <figurecaption><a href="https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ" target="_blank">The Weeknd</a></figurecaption>
+                </div>
+            </div>
+      
+            <div class="artist image-2">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY" target="_blank">Travis Scott</a></figurecaption>
+                </div>
+            </div>
+            
+            <div class="artist image-3">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x" target="_blank">Kanye West</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-4">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg" target="_blank">Kendrick Lamar</a></figurecaption>
+                </div>
+            </div>
+          </div>
+          
+          <!--Second Image Row -->
+          <div class="image row-2">
+            <div class="artist image-5">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/699OTQXzgjhIYAHMy9RyPD" target="_blank">Playboi Carti</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-6">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca" target="_blank">A$AP Rocky</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-7">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF" target="_blank">Tyler, The Creator</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-8">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/3x3jSlhyv5CiCZDZlaTq0M" target="_blank">Pi'erre Bourne</a></figurecaption>
+                </div>
+            </div>
+          </div>
+          
+          <!--Third Image Row -->
+          <div class="image row-3">
+            <div class="artist image-9">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" target="_blank">Drake</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-10">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/5pKCCKE2ajJHZ9KAiaK11H" target="_blank">Rihanna</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-11">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/1U0sIzpRtDkvu1hXXzxh60" target="_blank">Kelela</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-12">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM" target="_blank">Frank Ocean</a></figurecaption>
+                </div>
+            </div>
+          </div>
+          
+          <!-- Fourth Image Row -->
+          <div class="image row-4">
+            <div class="artist image-13">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/7yeFMUrYTY5cAZx0GKXnti" target="_blank">Alpha Wann</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-14">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/5yPzzu25VzEk8qrGTLIrE1" target="_blank">Young Nudy</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-15">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/757aE44tKEUQEqRuT6GnEB" target="_blank">Roddy Ricch</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-16">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X" target="_blank">Bad Bunny</a></figurecaption>
+                </div>
+            </div>
+          </div>
+          
+          <!--Fifth Image Row -->
+          <div class="image row-5">
+            <div class="artist image-17">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/3nFkdlSjzX9mRTtwJOzDYB" target="_blank">JAY-Z</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-18">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/2auiVi8sUZo17dLy1HwrTU" target="_blank">Solange</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-19">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/3gBZUcNeVumkeeJ19CY2sX" target="_blank">Ken Carson</a></figurecaption>
+                </div>
+            </div>
+            <div class="artist image-20">
+              <div class="figcap">
+              <figurecaption><a href="https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP" target="_blank">SZA</a></figurecaption>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+          <div class="footer-first">
+            <h3><span class="bottom-link"><a href="#">4 Weeks</a></span></h3>
+            <h3><span class="bottom-link"><a href="#">6 Months</a></span></h3>
+            <h3><span class="bottom-link"><a href="#">New</a></span></h3>
+          </div>
+          
+          <!--Footer Second -->
+          <div class="footer-second">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+      </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"/>
+      </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+        <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z"/>
+      </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+        <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+        <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+      </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+      </svg>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
